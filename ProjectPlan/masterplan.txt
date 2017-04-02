@@ -1,0 +1,7 @@
+1. Create basic schematic of the app's content
+2. Create an overview of how the different pages will link into each other
+3. Using the formula provided by "Tango with Django", begin to work through and create our app in tangent with GitLab.
+4. Create a basic working app.
+5. See what features can be added into the basic functionality of the app.
+6. Check the difficulty of introducing the new features.
+7. Implement any extras we deem viable.
