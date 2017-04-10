@@ -27,7 +27,6 @@ STATICFILES_DIRS = (STATIC_PATH,)
 
 #dynamic template path
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'StudentLife_DjangoHome/templates')
-print TEMPLATE_PATH
 
 TEMPLATE_DIRS = (
      TEMPLATE_PATH,
