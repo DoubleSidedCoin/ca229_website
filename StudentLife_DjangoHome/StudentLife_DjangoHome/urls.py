@@ -27,6 +27,8 @@ urlpatterns = [
                         
 
                         url(r'^admin/', include(admin.site.urls)),
-                        url(r'^StudentLifeApp/', include('StudentLifeApp.urls')), # ADD THIS NEW TUPLE!
+                        url(r'^StudentLifeApp/', include('StudentLifeApp.urls')),
+                        url(r'^StudentLifeApp/timetable', include('StudentLifeApp.urls')),
+                         # ADD THIS NEW TUPLE!
 ]
 
