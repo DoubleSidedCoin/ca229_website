@@ -17,7 +17,7 @@ from django.conf import settings
 #from django.conf.urls.static import static
 from django.conf.urls import url,include
 from django.contrib import admin
-#from . import views
+from StudentLifeApp import views
 
 
 urlpatterns = [
@@ -28,7 +28,7 @@ urlpatterns = [
 
                         url(r'^admin/', include(admin.site.urls)),
                         url(r'^StudentLifeApp/', include('StudentLifeApp.urls')),
-                        url(r'^StudentLifeApp/timetable', include('StudentLifeApp.urls')),
+                        url(r'^$/StudentLifeApp/profile', views.profile, name='profile'),
                          # ADD THIS NEW TUPLE!
 ]
 

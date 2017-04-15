@@ -7,3 +7,7 @@ def index(request):
    
 def timetable(request):
     return render(request, 'StudentLifeApp/timetable.html')
+    
+def profile(request):
+    return render(request, 'StudentLifeApp/profile.html')
+    
