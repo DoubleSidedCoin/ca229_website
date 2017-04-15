@@ -11,3 +11,8 @@ def timetable(request):
 def profile(request):
     return render(request, 'StudentLifeApp/profile.html')
     
+def buildings(request):
+    return render(request, 'StudentLifeApp/buildings.html')
+    
+def staff(request):
+    return render(request, 'StudentLifeApp/staff.html')

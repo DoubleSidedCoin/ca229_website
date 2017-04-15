@@ -28,7 +28,7 @@ urlpatterns = [
 
                         url(r'^admin/', include(admin.site.urls)),
                         url(r'^StudentLifeApp/', include('StudentLifeApp.urls')),
-                        url(r'^$/StudentLifeApp/profile', views.profile, name='profile'),
+                        
                          # ADD THIS NEW TUPLE!
 ]
 
