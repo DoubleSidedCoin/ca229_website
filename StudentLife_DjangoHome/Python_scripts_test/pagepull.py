@@ -23,4 +23,5 @@ def urlgen():
     return url
     
 tt_url = urlgen()
+print tt_url
 

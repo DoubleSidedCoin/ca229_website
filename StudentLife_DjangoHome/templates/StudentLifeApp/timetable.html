@@ -3,28 +3,35 @@
         <title>
             Pass Timetable
         </title>
+        
+        <script type="text/javascript">
+            function goToPage() {
+                var prog = document.getElementById('prog').value;
+                var year = document.getElementById('year').value;
+                var sem = document.getElementById('sem').value;
+                window.location = "https://www101.dcu.ie/timetables/feed.php?prog=" + prog + "&per=" + year + "&" + sem + "&hour=1-28&template=student";
+            }
+            //'https://www101.dcu.ie/timetables/feed.php?prog=_&per=_&_&hour=1-28&template=student'
+        </script>
+  
     </head>
 
     <body>
-        <form action="/action_page.php">
-            Program: <input type="text" name="prog"><br>
-            <input type="submit" value="Submit">
-        </form> 
-       
-        <select name="year">
+        <input type="text" id="prog" />
+        
+        <!-- <input type="text" id="year" /> -->
+        
+        <select name="year" id = "year">
             <option value="1">Year 1</option>
             <option value="2">Year 2</option>
-            <option value="3">Year 3</option>
-            <option value="4">Year 4</option>
+        </select>
+
+        <select name="year" id = "sem">
+            <option value="week1=1&week2=12">Semester 1</option>
+            <option value="week1=20&week2=31">Semester 2</option>
         </select>
         
-        <select name="sem">
-            <option value="1">Semester 1</option>
-            <option value="2">Semester 2</option>
-        </select>
-    
-        <p>
-            Test 2
-        </p>
+        <input type="submit" value="submit" onclick="goToPage();" />
+        
     </body>
 </html>
