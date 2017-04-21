@@ -1,13 +1,343 @@
-<!DOCTYPE = html>
-    <head>
-        <title>
-            Pass Buildings
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+ <title>
+            Buildings
         </title>
-    </head>
+<style>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<!-- CSS styles for standard search box -->
+<style type="text/css">
 
-    <body>
-        <p>
-            Test 4
-        </p>
+
+#tfheader{
+		background-color:#c3dfef;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	
+	.tfclear{
+		clear:both;
+}
+
+table {
+    font-family: Georgia, Garamond, Palatino, serif;
+    border-collapse: collapse;
+    width: 30%;
+    display: inline-block;
+    float: left;
+    font-size:25px;
+}
+
+td, th {
+    border: 5px solid #A9A9A9;
+    text-align: left;
+    padding: 8px;
+    color: black;
+}
+
+tr {
+    background-color: #dddddd;
+}
+table#t01 {
+    font-family: Georgia, Garamond, Palatino, serif;
+    border-collapse: collapse;
+    width: 30%;    
+    background-color:;
+    float: right;
+    font-size:25px;
+}
+body { 
+    background-image: url("https://www4.dcu.ie/sites/default/files/HomeBanner_02_Explore_0.jpg");
+    width: 100%;
+    height: 150%;
+}
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="file:///users/ec2/omahonk6/gitlab_project_with_baexxxxxxx/StudentLife/StudentLife-master-8aa264ac3e9ca11b1eb8329b1f72e3f5ee527925/StudentLife_DjangoHome/templates/StudentLifeApp/profile.html#news">Profile</a></li>
+  <li><a href="#contact">Timetable</a></li>
+  <li><a href="file:///users/ec2/omahonk6/gitlab_project_with_baexxxxxxx/StudentLife/StudentLife-master-8aa264ac3e9ca11b1eb8329b1f72e3f5ee527925/StudentLife_DjangoHome/templates/StudentLifeApp/buildings.html">Buildings</a></li>
+</ul
+      
+<u><font color="white"><font size= "30px"><center><h1>Buildings in DCU</h1></center></font></u>
+
+<!-- HTML for SEARCH BAR -->
+	<center><div id="tfheader">
+		<center><form id="tfnewsearch" method="get" action="https://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form></center>
+	<div class="tfclear"></div>
+	</div><center>
+<table>
+<caption><i><b>Buildings in Glasnevin Campus</b></i></caption> 
+  <tr>
+    <th>Letter</th>
+    <th>Building</th>
+  </tr>
+  <tr>
+    <td><b>A</b></td>
+    <td>Albert College Dublin</td>
+  </tr>
+  <tr>
+    <td><b>B</b></td>
+    <td>Invent</td>
+  </tr>
+  <tr>
+    <td><b>C</b></td>
+    <td>Henry Grattan Building</td>
+  </tr>
+  <tr>
+    <td><b>CA</b></td>
+    <td>Henry Grattan Extension</td>
+  </tr>
+  <tr>
+    <td><b>D</b></td>
+    <td>Bea Orpen Building</td>
+  </tr>
+  <tr>
+    <td><b>E</b></td>
+    <td>Estates Office</td>
+  </tr>
+  <tr>
+    <td><b>F</b></td>
+    <td>Car Park 1</td>
+  </tr>
+  <tr>
+    <td><b>G</b></td>
+    <td>NICB Building</td>
+  </tr>
+  <tr>
+    <td><b>H</b></td>
+    <td>Health and Sciences Building</td>
+  </tr>
+  <tr>
+    <td><b>J</b></td>
+    <td>Hamilton R&D Building</td>
+  </tr>
+  <tr>
+    <td><b>K</b></td>
+    <td>The Hub</td>
+  </tr>
+  <tr>
+    <td><b>L</b></td>
+    <td>McNulty Building</td>
+  </tr>
+  <tr>
+    <td><b>M</b></td>
+    <td>Interfaith Centre</td>
+  </tr> 
+  <tr>
+    <td><b>N</b></td>
+    <td>Marconi Building </td>
+  </tr>
+  <tr>
+    <td><b>PR</b></td>
+    <td>The Pavillion</td>
+  </tr>
+  <tr>
+    <td><b>P</b></td>
+    <td>Main Restuarant</td>
+  </tr>
+  <tr>
+    <td><b>Q</b></td>
+    <td>DCU Business School</td>
+  </tr>
+  <tr>
+    <td><b>QA</b></td>
+    <td>DCU Administration Building</td>
+  </tr>
+  <tr>
+    <td><b>R</b></td>
+    <td>Creche</td>
+  </tr>
+  <tr>
+    <td><b>S</b></td>
+    <td>Stokes Building</td>
+  </tr>
+  <tr>
+    <td><b>T</b></td>
+    <td>Terence Larkin Building</td>
+  </tr>
+  <tr>
+    <td><b>U</b></td>
+    <td>University Sports Building</td>
+  </tr>
+  <tr>
+    <td><b>V1 & V2</b></td>
+    <td>Hamstead and Larkfield Undergraduate Residences</td>
+  </tr>
+  <tr>
+    <td><b>VA & VB</b></td>
+    <td>Postgraduate Residences</td>
+  </tr>
+  <tr>
+    <td><b>W</b></td>
+    <td>Sports Club Residences </td>
+  </tr>
+  <tr>
+    <td><b>X</b></td>
+    <td>Lonsdale Building</td>
+  </tr>
+  <tr>
+    <td><b>Y</b></td>
+    <td>John & Aileen O'Reilly Library</td>
+  </tr>
+  <tr>
+    <td><b>Z</b></td>
+    <td>The Helix Arts Centre</td>
+  </tr>
+</table>
+
+<table id = "t01">
+<caption><i><b>Buildings in St.Patricks Campus</b></i></caption> 
+  <tr>
+    <th>Number</th>
+    <th>Building</th>
+  </tr>
+  <tr>
+    <td><b>1</b></td>
+    <td>A Block</td>
+  </tr>
+  <tr>
+    <td><b>2</b></td>
+    <td>B Block</td>
+  </tr>
+  <tr>
+    <td><b>3</b></td>
+    <td>C Block</td>
+  </tr>
+  <tr>
+    <td><b>4</b></td>
+    <td>D Block</td>
+  </tr>
+  <tr>
+    <td><b>5</b></td>
+    <td>E Block</td>
+  </tr>
+  <tr>
+    <td><b>6</b></td>
+    <td>F Block</td>
+  </tr>
+  <tr>
+    <td><b>7</b></td>
+    <td>G Block</td>
+  </tr>
+  <tr>
+    <td><b>8</b></td>
+    <td>Chapel</td>
+  </tr>
+  <tr>
+    <td><b>9</b></td>
+    <td>Sports Building</td>
+  </tr>
+  <tr>
+    <td><b>10</b></td>
+    <td>Educational Research Centre                    </td>
+  </tr>
+  <tr>
+    <td><b>11</b></td>
+    <td>Student Residences</td>
+  </tr>
+  <tr>
+    <td><b>12</b></td>
+    <td>Drumcondra Edcuation Centre</td>
+  </tr>
+  <tr>
+    <td><b>13</b></td>
+    <td>St.Patricks Boys School</td>
+  </tr> 
+  <tr>
+    <td><b>14</b></td>
+    <td>St.Patricks Junior School </td>
+  </tr>
+  <tr>
+    <td><b>15</b></td>
+    <td>Sports Field</td>
+  </tr>
+  <tr>
+    <td><b>16</b></td>
+    <td>Sports Field</td>
+  </tr>
+  <tr>
+    <td><b>17</b></td>
+    <td>Moville</td>
+  </tr>
+  <tr>
+    <td><b>18</b></td>
+    <td>Belvedere House</td>
+  </tr>
+ </table>
+
     </body>
+
 </html>
