@@ -1,7 +1,7 @@
 <!DOCTYPE = html>
     <head>
         <title>
-            Pass Timetable
+            Timetable
         </title>
         
         <script type="text/javascript">
@@ -11,27 +11,61 @@
                 var sem = document.getElementById('sem').value;
                 window.location = "https://www101.dcu.ie/timetables/feed.php?prog=" + prog + "&per=" + year + "&" + sem + "&hour=1-28&template=student";
             }
-            //'https://www101.dcu.ie/timetables/feed.php?prog=_&per=_&_&hour=1-28&template=student'
         </script>
+        
+        <style>
+            .prog {
+                display: block;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align:center;
+            }
+            
+            .year {
+                display: block;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align:center;
+            }
+            
+            .sem {
+                display: block;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align:center;
+            }
+            
+            .submit {
+                display: block;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align:center;
+            }
+            
+        </style>
   
     </head>
 
     <body>
-        <input type="text" id="prog" />
-        
-        <!-- <input type="text" id="year" /> -->
-        
-        <select name="year" id = "year">
+        <input type="text" id="prog" class="prog" />
+      
+        <select name="year" id = "year" class = "year" align="center">
             <option value="1">Year 1</option>
             <option value="2">Year 2</option>
+            <option value="3">Year 3</option>
+            <option value="4">Year 4</option>    
         </select>
-
-        <select name="year" id = "sem">
+  
+        <select name="year" id = "sem" class = "sem" align="center">
             <option value="week1=1&week2=12">Semester 1</option>
             <option value="week1=20&week2=31">Semester 2</option>
         </select>
-        
-        <input type="submit" value="submit" onclick="goToPage();" />
-        
+    
+        <input type="submit" value="submit" onclick="goToPage();" class="submit" align="center" />
+         
     </body>
 </html>
