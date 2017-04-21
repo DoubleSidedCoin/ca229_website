@@ -31,10 +31,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
 
-li a:hover:not(.active) {
-    background-color: #111;
 }
 
 .active {
@@ -42,10 +39,72 @@ li a:hover:not(.active) {
 }
 
 div.profile {
-    background-color: #0000A0;
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color:;
     color: white;
     margin: 20px 0 20px 0;
     padding: 20px;
+    font-size: 30;
+}
+div.login {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 500px;
+    height: 300px;
+    float: left;
+
+}
+div.papers {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 500px;
+    height: 300px;
+    float: right;
+
+} 
+div.calendar {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    display: block ; 
+    font-size: 18;
+    border-style: solid;
+    width: 500px;
+    height: 300px;
+    clear: left;
+    float: right;
+}
+ div.susi {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: block ;
+    border-style: solid;
+    width: 500px;
+    height: 300px;
+    float: left;
+} 
+body { 
+    background-image: url("https://www4.dcu.ie/sites/default/files/HomeBanner_02_Explore_0.jpg");
+    width: 100%;
+    height: 150%;
 }
 </style>
     </head>
@@ -58,14 +117,50 @@ div.profile {
   <li><a href="file:///users/ec2/omahonk6/gitlab_project_with_baexxxxxxx/StudentLife/StudentLife-master-8aa264ac3e9ca11b1eb8329b1f72e3f5ee527925/StudentLife_DjangoHome/templates/StudentLifeApp/buildings.html">Buildings</a></li>
 </ul> 
 
-<form action="https://loop.dcu.ie/theme/dcu/layout/altlogin.php" method="$_GET">
-<div class = "profile"> 
-<font color = yellow><h2> About Yourself </h2></font>  
-<p>Hey you can log into Loop from here</p>
-<input type="submit" value="Submit">  
-</div>
 
-</form> 
-    </body>
+
+
+<div class = "profile"> 
+<center><u><b><h1>Welcome to your Profile </h1></u></b></center>  
+</div>
+ 
+ 
+<form action="https://loop.dcu.ie/theme/dcu/layout/altlogin.php" method="$_GET">
+<div class = "login">
+<center><b><h3>LOOP</h3></b></center>
+<p>This is your online learning platform. Loop allows students like you to connect with course content, your lecturers and fellow learners. It's where you can access your notes, participate in discussion fora ,construct your ePortfolio and participate in webinars. Basically everything you need to guide you through your few years in DCU.
+<center><b>You can log into Loop from here</b></p>
+<input type="submit" value="Login"></center> 
+</div>
+</form>
+
+<form action="http://www.dcu.ie/registry/past-exam-papers.shtml" method="$_GET">
+<div class = "papers">
+<center><b><h3>Exam Papers</h3></b></center>
+<p>A place where you can find every single exam paper from every single course in DCU. All archived in one place so it's easy to find whatever you're looking for. Just enter the module code of your choice and it will all be there for you to download and learn from.
+<center><b>Past Papers can be found here</b></p>
+<input type="submit" value="Past Papers Here"></center> 
+</div>
+</form>
+
+<form action="http://www.dcu.ie/registry/past-exam-papers.shtml" method="$_GET">
+<div class = "calendar">
+<center><b><h3>Academic Calendar</h3></b></center>
+<p> A list of all the important dates you will need for throughout the year. A handy place to go to when you need to find out what's happening around the college. Shows exam dates, reading weeks and when lectures begin and finish. You can also import the calendar to your own google calendar by logging into your email. 
+<center><b>Find out what's going on</b></p>
+<input type="submit" value="Academic Calendar"></center> 
+</div>
+</form>
+
+<form action="https://susi.ie/" method="$_GET">
+<div class = "susi">
+<center><b><h3>Susi</h3></b></center>
+<p>This stands for Student Universal Support Ireland. Susi is Ireland's single national awarding authority for all higher and further education grants. So if you are elgible to recieve a grant, all the information on how to apply and find out, is on the Susi website. There's nothing to be lost from checking if you can recieve a grant or not. Take a look.
+<center><b>More information on Susi</b></p>
+<input type="submit" value="Susi"></center> 
+</div>
+</form>
+
+   </body>
 
 </html>
