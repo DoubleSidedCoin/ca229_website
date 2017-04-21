@@ -14,39 +14,7 @@
         </script>
         
         <style>
-			.prog {
-				display: block;
-				width: 50%;
-				margin-left: auto;
-				margin-right: auto;
-				text-align:center;
-			}
-
-			.year {
-				display: block;
-				width: 50%;
-				margin-left: auto;
-				margin-right: auto;
-				text-align:center;
-			}
-
-			.sem {
-				display: block;
-				width: 50%;
-				margin-left: auto;
-				margin-right: auto;
-				text-align:center;
-			}
-
-			.submit {
-				display: block;
-				width: 50%;
-				margin-left: auto;
-				margin-right: auto;
-				text-align:center;
-			}
-			
-			#tfheader{
+						#tfheader{
 			background-color:#c3dfef;
 			}
 			#tfnewsearch{
@@ -126,7 +94,6 @@
 			padding: 0;
 			overflow: hidden;
 			background-color: #333;
-			position: fixed;
 			top: 0;
 			width: 100%;
 			}
@@ -147,10 +114,6 @@
 			background-color: #111;
 			}
 
-			.active {
-			background-color: #4CAF50;
-			}
-
 			.boxed {
 			border: 1px solid black ;
 			background: #f2f2f2;
@@ -168,8 +131,48 @@
 			width:100%;
 			height:100%'	
 			}
-			 
-        </style>
+			
+			.prog {
+				display: block;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align:center;
+			}
+
+			.year {
+				display: block;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align:center;
+			}
+
+			.sem {
+				display: block;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align:center;
+			}
+
+			.submit {
+				display: block;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align:center;
+			}
+			
+			.active {
+				background-color: #4CAF50;
+			}
+			
+			.blank {
+				display: block;
+				height: 5%
+			}
+			</style>
   
     </head>
 
@@ -177,15 +180,28 @@
 		<div id = "background" class = "background">
 			<img src='https://www4.dcu.ie/sites/default/files/HomeBanner_02_Explore_0.jpg' style='width:100%;height:100%' alt='Dcu front pillars at night' />
 		</div>
-		
-        <input type="text" id="prog" class="prog" placeholder="Enter your Program Code in Caps" />
+
+		<ul>
+				<li><a class="active" href="profile">Home</a></li>
+				<li><a href="staff">Staff</a></li>
+				<li><a href="timetable">Timetable</a></li>
+				<li><a href="buildings">Buildings</a></li>
+		</ul>
+
+		<div class = "blank" id = "blank">
+        </div>
       
 		<div class="boxed">
 			<p align = center>
 				Find your program code <a href="https://www101.dcu.ie/timetables/degrees.php">here</a>
 			</p>
 		</div> 
-      
+		
+		<div class = "blank" id = "blank">
+        </div>
+        
+        <input type="text" id="prog" class="prog" placeholder="Enter your Program Code in Caps" />
+         
         <select name="year" id = "year" class = "year">
             <option value="1">Year 1</option>
             <option value="2">Year 2</option>
@@ -198,7 +214,10 @@
             <option value="week1=20&week2=31">Semester 2</option>
         </select>
     
-        <input type="submit" value="submit" onclick="goToPage();" class="submit" />
+		<div class = "blank" id = "blank">
+        </div>
+    
+        <input type="submit" value="Submit" onclick="goToPage();" class="submit" />
          
     </body>
 </html>

@@ -5,7 +5,7 @@ from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 
 def index(request):
-    return render(request, 'StudentLifeApp/index.html')
+    return render(request, 'StudentLifeApp/profile.html')
    
 def timetable(request):
     return render(request, 'StudentLifeApp/timetable.html')
