@@ -11,28 +11,30 @@
 body {margin:0;}
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+	width: 100%;
+	}
 
 li {
-    float: left;
-}
+	float: left;
+	}
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
 
-}
+li a:hover:not(.active) {
+	background-color: #111;
+	}
 
 .active {
     background-color: #4CAF50;
@@ -111,13 +113,11 @@ body {
 			
     <body>			
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="file:///users/ec2/omahonk6/gitlab_project_with_baexxxxxxx/StudentLife/StudentLife-master-8aa264ac3e9ca11b1eb8329b1f72e3f5ee527925/StudentLife_DjangoHome/templates/StudentLifeApp/profile.html#news">Profile</a></li>
-  <li><a href="#contact">Timetable</a></li>
-  <li><a href="file:///users/ec2/omahonk6/gitlab_project_with_baexxxxxxx/StudentLife/StudentLife-master-8aa264ac3e9ca11b1eb8329b1f72e3f5ee527925/StudentLife_DjangoHome/templates/StudentLifeApp/buildings.html">Buildings</a></li>
-</ul> 
-
-
+	<li><a class="active" href="profile">Home</a></li>
+	<li><a href="staff">Staff</a></li>
+	<li><a href="timetable">Timetable</a></li>
+	<li><a href="buildings">Buildings</a></li>
+</ul>
 
 
 <div class = "profile"> 

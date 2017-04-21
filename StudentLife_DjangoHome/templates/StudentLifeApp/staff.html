@@ -1,13 +1,657 @@
 <!DOCTYPE = html>
     <head>
         <title>
-            Pass Staff
+            Staff
         </title>
+<style>
+
+
+body {margin:0;}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+	width: 100%;
+	}
+
+li {
+	float: left;
+	}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+
+li a:hover:not(.active) {
+	background-color: #111;
+	}
+
+.active {
+    background-color: #4CAF50;
+}
+body { 
+    background-image: url("https://www4.dcu.ie/sites/default/files/HomeBanner_02_Explore_0.jpg");
+    width: 100%;
+    height: 150%;
+}
+div.profile {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color:;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    font-size: 30;
+}
+div.head {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color:;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    font-size: 20;
+    clear: right;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+div.language {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+    clear: left;
+
+}
+div.communication {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+}
+div.irish {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+
+}
+div.law {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+
+}
+div.english {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+
+}
+div.history {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+
+}
+div.theo {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+
+}
+div.ethics {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+    clear: right;
+    display: block;
+
+}
+div.arts {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+    clear: left;
+
+}
+div.human {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.lit {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.policy {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.stem {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.bio {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+    clear: left;
+
+}
+div.chem {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.health {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.math {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.nurse {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.physic {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.compute {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+    clear: left;
+
+}
+div.elec {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+div.mechanic {
+    font-family: Georgia, Garamond, Palatino, serif;
+    background-color: #A9A9A9	 ;
+    color: white;
+    margin: 1px 0 1px 0;
+    padding: 20px;
+    font-size: 18;
+    display: inline-block ;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    float: left;
+
+}
+</style>
     </head>
 
     <body>
-        <p>
-            Test 5
+<ul>
+	<li><a class="active" href="profile">Home</a></li>
+	<li><a href="staff">Staff</a></li>
+	<li><a href="timetable">Timetable</a></li>
+	<li><a href="buildings">Buildings</a></li>
+</ul>
+      <div class = "profile"> 
+<center><u><b><h1>Everyone you need to know </h1></u></b></center>  
+</div>
+
+<div class = "head" >
+   <h2> Faculty of Humanities & Social Sciences </h2>
+</div>
+<!--Language School-->
+
+<form action="https://www.dcu.ie/salis/people/index.shtml" method="$_GET">
+<div class = "language">
+<center><b><h4>School of Applied Language and Intercultural Studies</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- School of Communications-->
+
+<form action="https://www.dcu.ie/communications/people/index.shtml" method="$_GET">
+<div class = "communication">
+<center><b><h4>School of Communications</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- Irish School -->
+
+<form action="https://www.dcu.ie/fiontar_scoilnagaeilge/people/index.shtml" method="$_GET">
+<div class = "irish">
+<center><b><h4>Fiontar & Scoil na Gaeilge</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!--Law and Government School-->
+
+<form action="https://www.dcu.ie/law_and_government/people/index.shtml" method="$_GET">
+<div class = "law">
+<center><b><h4>School of Law and Government</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- School of English-->
+
+<form action="https://www.dcu.ie/english/people/index.shtml" method="$_GET">
+<div class = "english">
+<center><b><h4>School of English</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- School of History and Geography -->
+
+<form action="https://www.dcu.ie/history_geography/people/index.shtml" method="$_GET">
+<div class = "history">
+<center><b><h4>School of History and Geography</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- School of Theology, Philosophy and Music -->
+
+<form action="https://www.dcu.ie/theology_philosophy_music/people/index.shtml" method="$_GET">
+<div class = "theo">
+<center><b><h4>School of Theology, Philosophy and Music</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- Institute of Ethics -->
+
+<form action="https://www.dcu.ie/ethics/staff.shtml" method="$_GET">
+<div class = "ethics">
+<center><b><h4>Institue of Ethics</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<div class = "head">
+<h2> DCU Institute of Education </h2>
+</div>
+
+<!-- School of Arts Education and Movement -->
+
+<form action="https://www.dcu.ie/arts_education_movement/people/index.shtml" method="$_GET">
+<div class = "arts">
+<center><b><h4>School of Arts Education and Movement</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- School of Human Development -->
+
+<form action="https://www.dcu.ie/human_development/people/index.shtml" method="$_GET">
+<div class = "human">
+<center><b><h4>School of Human Development</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- School of Language, Literacy & Early Childhood Education -->
+<form action="http://www.dcu.ie/language_literacy_and_early_childhood_education/people/index.shtml" method="$_GET">
+<div class = "lit">
+<center><b><h4>School of Language, Literacy & Early Childhood Education</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+
+<!--School of Policy and Practice-->
+<form action="http://www.dcu.ie/policy_and_practice/people/index.shtml" method="$_GET">
+<div class = "policy">
+<center><b><h4>School of Policy & Practice</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!--School of STEM Edcuation, Innovation & Global Studies-->
+<form action="http://www.dcu.ie/stem_education_innovation_global_studies/people/index.shtml" method="$_GET">
+<div class = "stem">
+<center><b><h4>School of STEM Edcuation, Innovation & Global Studies</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<div class = "head" >
+   <h2> Faculty of Science and Health </h2>
+</div>
+
+<!-- School of Biotechnology-->
+
+<form action="http://www.dcu.ie/biotechnology/people/index.shtml" method="$_GET">
+<div class = "bio">
+<center><b><h4>School of Biotechnology</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!--School of Chemical Sciences-->
+
+<form action="http://www.dcu.ie/chemistry/people/index.shtml" method="$_GET">
+<div class = "chem">
+<center><b><h4>School of Chemical Sciences</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!-- School of Health and Human Performance-->
+
+<form action="http://www4.dcu.ie/shhp/people/index.shtml" method="$_GET">
+<div class = "health">
+<center><b><h4>School of Health and Human Performance</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!--School of Mathematical Sciences-->
+
+<form action="http://www4.dcu.ie/maths/people/index.shtml" method="$_GET">
+<div class = "math">
+<center><b><h4>School of Mathematical Sciences</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!--School of Nursing and Human Sciences-->
+
+<form action="http://www4.dcu.ie/snhs/people/index.shtml" method="$_GET">
+<div class = "nurse">
+<center><b><h4>School of Nursing and Human Sciences</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!--School of Physical Sciences-->
+
+<form action="http://www4.dcu.ie/physics/people/index.shtml" method="$_GET">
+<div class = "physic">
+<center><b><h4>School of Physical Sciences</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+
+<div class = "head" >
+   <h2> Faculty of Engineering and Computing </h2>
+</div>
+
+<!--School of Computing-->
+
+<form action="http://www4.dcu.ie/computing/people/index.shtml" method="$_GET">
+<div class = "compute">
+<center><b><h4>School of Computing</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!--School of Electronic Engineering-->
+
+<form action="http://www4.dcu.ie/electronics/people/index.shtml" method="$_GET">
+<div class = "elec">
+<center><b><h4>School of Electronic Engineering</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+
+<!--School of Mechanical and Manufacturing Engineering-->
+
+<form action="http://www4.dcu.ie/mechanical_engineering/people/index.shtml" method="$_GET">
+<div class = "mechanic">
+<center><b><h4>School of Mechanical and Manufacturing Engineering</h4></b></center>
+<p>
+</p>
+<input type="submit" value="Staff">
+</div>
+</form>
+    <p>
+            
         </p>
     </body>
 </html>
